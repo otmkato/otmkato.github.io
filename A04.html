@@ -1,0 +1,55 @@
+
+<!-- https://jcsites.juniata.edu/faculty/kruse/it105/inclass/formsDay08a.html -->
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>In-Class Forms</title>
+ </head>
+ <body>
+  <form name="inclass">
+    <input type=button value="Push Me!"><br>
+    <input type="submit" value="Submit Form"><br>
+    <input type="reset" value="Clear"><br>
+    Enter your first name:
+    <input type="text" name="firstName" value="Prof K" size=50><br>
+
+    <INPUT TYPE=CHECKBOX NAME="eggs" VALUE="eggs"> Eggs
+    <INPUT TYPE=CHECKBOX NAME="toast" VALUE="toast"> Toast
+<br><br>
+    <INPUT TYPE=RADIO NAME="Station" VALUE="magic"> 93.7
+    <INPUT TYPE=RADIO NAME="Station" VALUE="bus"> 99.5
+    <INPUT TYPE=RADIO NAME="Station" VALUE="merf"> 103.5
+<br><br>
+   <table>
+    <tr>
+     <td>Name</td><td><input type=text name="fullName">
+    </tr>
+    <tr>
+     <td>Address</td><td><input type=text name="address">
+    </tr>
+   </table>
+<br><br>
+<label for="days">Choose a day:</label>
+<SELECT NAME="choices" id="days">
+ <option>Monday</option>
+ <option>Tuesday</option>
+ <option>Wednesday</option>
+ <option>Thursday</option>
+ <option>Friday</option>
+ <option>Saturday</option>
+ <option>Sunday</option>
+</SELECT>
+<br><br>
+<TEXTAREA NAME="comments" ROWS=5 COLS=40>
+Enter your comments, please be nice, here.
+</TEXTAREA>
+<br>
+  </form>
+
+<form action="https://www.google.com/search" method = "get">
+ <input name="q" type="text"> 
+ <input type="submit" value="Submit Form">
+</form>
+
+ </body>
+</html>
