@@ -1,0 +1,72 @@
+<!-- https://jcsites.juniata.edu/faculty/kruse/it105/inclass/formsDay08a.html -->
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>In-Class Forms</title>
+ </head>
+<head>
+ <title>Hello!</title>
+ <style>
+ h2
+ {
+ text-align: center;
+ color: blue;
+ }
+ </style>
+</head>
+ <body>
+<h1> Welcome to Kato's Pizza Shop</h1>
+<h3> Customer Info</h3>
+
+  <form name="inclass">
+
+
+   <table>
+    <tr>
+     <td>Name</td><td><input type=text name="fullName">
+    </tr>
+    <tr>
+     <td>Address</td><td><input type=text name="address">
+    </tr>
+<tr>
+     <td>Phone Number</td><td><input type=text name="address">
+    </tr>
+   </table>
+
+    
+    
+    <h3> Pizza Size</h3>
+<label for="size">Choose a size:</label>
+<SELECT NAME="choices" id="days">
+ <option>Small</option>
+ <option>Medium</option>
+ <option>Large</option>
+ <option>X-Large</option>
+ 
+</SELECT>
+
+    
+<br><br>
+    <INPUT TYPE=RADIO NAME="Station" VALUE="magic"> Thin crust
+    <INPUT TYPE=RADIO NAME="Station" VALUE="bus"> Hand Tossed
+    <INPUT TYPE=RADIO NAME="Station" VALUE="merf"> Deep Dish
+<br><br>
+
+<br><br>
+
+<br><br>
+<TEXTAREA NAME="comments" ROWS=5 COLS=40>
+Enter your comments, please be nice, here.
+</TEXTAREA>
+<br>
+<input type="submit" value="Submit Form"><br>
+    <input type="reset" value="Clear"><br>
+  </form>
+
+<form action="https://www.google.com/search" method = "get">
+ <input name="q" type="text"> 
+ <input type="submit" value="Submit Form">
+</form>
+
+ </body>
+</html>
