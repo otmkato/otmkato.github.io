@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Kato Jacobs, November 30th, Pizza ordering website-->
+    
+<head> <title>Papa's Pizzeria</title></head>
+<header>
+    <h1>Orders made Hot and Ready!</h1>
+</header>
+<body>
+    <form method="Post" id="my form" action="thanks.html">
+        <h2>Customer Information</h2>
+        <table>
+            <tr><td>First Name:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr><td>Last Name:</td> 
+            <td><input type="text"></td>
+            </tr>
+        <tr><td>Phone Number:</td>
+        <td><input type="number"></td>
+            </tr>
+            <tr><td>Street Address:</td>
+            <td><input type="text"> </td>
+            </tr>
+        
+        </table>
+            <h2>Delivery</h2>
+            <input type="radio" id="delivery" name="delivery" value="delivery">
+            <label for="delivery">delivery</label><br>
+            <input type="radio" id="pick-up" name="pick-up" value="pick-up">
+            <label for="pick-up">pick-up</label><br>
+            <input type="radio" id="dine-in" name="dine-in" value="dine-in">
+            <label for="dine-in">dine-in</label><br>
+            <textarea name="message" rows="4" cols="40">Leave Direction so we may drop off pizza if you selected delivery</textarea><br>
+        
+            <h2>Crust Style</h2>
+            <input type="radio" id="normal" name="normal" value="normal">
+            <label for="normal">normal</label><br>
+            <input type="radio" id="chicago" name="chicago" value="chicago">
+            <label for="chicago">chicago</label><br>
+            <input type="radio" id="stuffed crust" name="stuffed_crust" value="stuffed_crust">
+            <label for="stuffed crust">stuffed crust</label><br>
+        
+           <h2>Pizza Size</h2>
+         <label for="Pizza Size">Choose a size:</label>
+         <select id="Pizza Size" name="Pizza Size">
+        <option value="small">small</option>
+        <option value="medium">medium</option>
+        <option value="large">large</option>
+        <option value="Extra-large">Extra Large</option>
+         </select>
+        
+            <h2>Toppings</h2>
+            <input type="checkbox" id="cheese" name="cheese" value="cheese">
+            <label for="cheese">cheese</label><br>
+            <input type="checkbox" id="pepperoni" name="pepperoni" value="pepperoni">
+            <label for="pepperoni">pepperoni</label><br>
+            <input type="checkbox" id="sausage" name="sausage" value="sausage">
+            <label for="sausage">sausage</label><br>
+            <input type="checkbox" id="pineapple" name="pineapple" value="pineapple">
+            <label for="pineapple">pineapple</label><br>
+            <input type="checkbox" id="bacon" name="bacon" value="bacon">
+            <label for="bacon">bacon</label><br>
+            <input type="checkbox" id="mushrooms" name="mushrooms" value="mushrooms">
+            <label for="mushrooms">mushrooms</label><br>
+        
+            <button type="submit" from="my form" value="submit">submit</button>
+            <button type="reset" from="my form" value="reset">reset</button>
+    </form>
+</body>
+<footer></footer>
+</html>
